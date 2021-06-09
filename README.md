@@ -1,4 +1,4 @@
-# Who owns the AI Mozart?
+# Who owns the Mozart AI?
 ## Ownership and IP Considerations of AI generated music
 *Mateo Osorio\
 Khalil Anderson*
