@@ -53,6 +53,9 @@ In a formalization of music generation, Xenakis [[1]](#1) introduces Stochastic 
 
 ### ML
 
+![humanpic](humanEval.jpg)
+*Human evaluation scores across a couple ML models in terms of how many wins a model got when listeners had to determine which sounded the most human composed*
+
 With the growing speed and storage of computers, machine learning has been attempting to replace other methods of music generation with varying levels of success. These methods take advantage of general growth in generative modeling techniques that can easily transfer to the music domain. Here will detail a SOTA method of each of the major types of ML used for music generation. 
 
 **Transformer**  
@@ -81,6 +84,9 @@ GANSynth [[5]](#5) attempts to fix some of the problems faced in WaveNet to gene
 
 
 In training and experimenting on the model, they compare the model to WaveNets and control different features the model will use to create a song. In human testing, using the mel frequency scale and higher frequency input data provide significantly better results than the WaveNet. The audio from GANSynth also has more stable periodicity. They are also able to control the timbre produced. The biggest gain is also seen at the speed which only takes 20 milliseconds to generate to audio while the other models take minutes at least.
+
+![gansynth](gansynth.jpg)
+*Quantitative metrics regularly used to compare Music generation models comparing GanSynth, Human  and a few other models including Number of Statistically-Different Bins (NDB), Inception Score (IS), Frenchet Incpetion Distance (FID), Pitch Accuracy (PA), and Pitch Entropy (PE)*
 
 ## Can computers make art?
 
