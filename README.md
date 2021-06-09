@@ -53,7 +53,7 @@ In a formalization of music generation, Xenakis [[1]](#1) introduces Stochastic 
 
 ### ML
 
-![humanpic](humanEval.jpg)
+![humanpic](humanEval.jpg)  
 *Human evaluation scores across a couple ML models in terms of how many wins a model got when listeners had to determine which sounded the most human composed*
 
 With the growing speed and storage of computers, machine learning has been attempting to replace other methods of music generation with varying levels of success. These methods take advantage of general growth in generative modeling techniques that can easily transfer to the music domain. Here will detail a SOTA method of each of the major types of ML used for music generation. 
